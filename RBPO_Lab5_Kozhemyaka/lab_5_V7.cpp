@@ -163,10 +163,10 @@ public:
 
 template<typename T>
 void demonstrateAbstractQueue(AbstractQueue<T>& queue) {
-    queue.Push(3121);
-    queue.Push(312);
-    queue.Push(323);
-    queue.Push(4123);
+    queue.Push(453);
+    queue.Push(65);
+    queue.Push(6262);
+    queue.Push(234);
 
     cout << "Size: " << queue.GetSize() << endl;
     cout << "Queue: ";
@@ -179,10 +179,10 @@ void demonstrateAbstractQueue(AbstractQueue<T>& queue) {
 
 template<typename T>
 void demonstrateAbstractQueue(AbstractQueue<T>* queue) {
-    queue->Push(31231);
-    queue->Push(1231);
-    queue->Push(312);
-    queue->Push(4123);
+    queue->Push(2525);
+    queue->Push(252);
+    queue->Push(25);
+    queue->Push(6225);
 
     cout << "Size: " << queue->GetSize() << endl;
     cout << "Queue: ";
@@ -192,6 +192,7 @@ void demonstrateAbstractQueue(AbstractQueue<T>* queue) {
     }
     cout << endl;
 }
+
 
 int main() {
     QueueBasedOnUnidirectionalLinkedList<int> queue1;
